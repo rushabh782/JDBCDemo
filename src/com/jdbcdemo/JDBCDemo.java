@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class JDBCDemo {
     // Database connection parameters
-    private static final String URL = "jdbc:mysql://localhost:3306/jdbc_demo";
-    private static final String USER = "root"; // Replace with your MySQL username
-    private static final String PASSWORD = "rush1234"; // Replace with your MySQL password
+    private static final String URL = "jdbc:mysql://localhost:3306/db_namw";
+    private static final String USER = "mysql_username"; // Replace with your MySQL username
+    private static final String PASSWORD = "mysql_password"; // Replace with your MySQL password
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
